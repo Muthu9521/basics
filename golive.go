@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-    person := map[string]interface{}{
+    person1 := map[string]interface{}{
         "name": "John Doe",
         "age":  30,
     }
 
-    fmt.Println("Map:", person)
+    fmt.Println("Map:", person1)
 }
